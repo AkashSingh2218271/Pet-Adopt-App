@@ -42,7 +42,7 @@ export default function PetInfo({ pet }) {
             {pet?.address}
           </Text>
         </View>
-            <MarkFav/>
+            <MarkFav pet={pet}/>
       </View>
     </View>
   );
