@@ -1,6 +1,6 @@
 import { View, Text, Image, Pressable } from "react-native";
 import React, { useEffect } from "react";
-import Colors from './../../constants/Colors'
+import Colors from '../../constants/Colors'
 import * as WebBrowser from 'expo-web-browser'
 import { useOAuth } from '@clerk/clerk-expo';
 import * as linking from 'expo-linking';
@@ -38,7 +38,7 @@ export default function LoginScreen() {
 
   return (
     <View style={{
-      backgroundColor: Colors.WHITE,
+      backgroundColor:Colors.WHITE,
       height: '100%',
     }}>
       <Image source={require("./../../assets/images/login.png")}
